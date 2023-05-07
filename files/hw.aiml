@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>  
+
+    <category>
+      <pattern>* 300€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 300€ :
+        CPU : INTEL 13100
+        Carte mère : MSI H510M-A PRO Micro ATX LGA1200 Motherboard
+        RAM : 8 Go de DDR4 à 3200 MHz
+        Stockage : 1 TB de HDD Disque dur, 
+        Alimentation : Corsair CV-450W 80+ Bronze
+        Boîtier : ZALMAN S2 Format ATX
+      </template>
+    </category>
+
+    <category>
+      <pattern>* 500€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 500€ :
+        CPU : AMD Ryzen 5 5600G
+        Carte mère : B450 TOMAHAWK MAX II
+        RAM : 8 Go de DDR4 à 3600 MHz
+        Stockage : 500 Go de SSD Crucial MX500
+        Alimentation : Seasonic BC-500W 80+ Bronze
+        Boîtier : ZALMAN S2 TG format ATX
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 800€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 500€ :
+        CPU : AMD Ryzen 5 5500
+        Carte mère : B550 A-PRO MSI
+        Carte graphique : AMD RX 6600
+        RAM : 16 Go de DDR4 à 3600 MHz
+        Stockage : 1 TB Go de SSD NVME M.2 970 Evo Plus
+        Alimentation : Seasonic BC-650W 
+        Boîtier : MSI MAG FORGE 100M
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 1000€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 800€ :
+        CPU : AMD Ryzen 5 5600X
+        Carte mère : MSI B550 GAMING PLUS
+        Carte graphique : AMD 6700 XT
+        RAM : 16 Go de DDR4 à 3600 CRUCIAL BALLISTIX RGB
+        Stockage : 1 To de SSD SATA MX500
+        Alimentation : CORSAIR RM650W 80+ Gold
+        Boîtier :  PHANTHEKS G360A ARGB ATX
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 1200€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 1200€ :
+        CPU : AMD Ryzen 7 5800X
+        Carte mère : ASUS ROG STRIX B550-F GAMING
+        Carte graphique : NVIDIA GeForce RTX 3060 ti
+        RAM : 16 Go de DDR4 à 3600 MHz, KINGSTON FURY S
+        Stockage : 1 To de SSD NVMe, 970 EVO PLUS
+        Alimentation : 750W 80+ Gold
+        Boîtier : CORSAIR 4000D AIRFLOW 
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 1500€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 1500€ :
+        CPU : AMD Ryzen 5 5600X
+        Carte mère : ASUS ROG STRIX B550-F GAMING
+        Carte graphique : NVIDIA GeForce RTX 3080
+        RAM : 16 Go de DDR4 à 3600 MHz
+        Stockage : 500 Go de SSD NVMe
+        Alimentation : 650W 80+ Bronze, TERMALRIGHT
+        Boîtier : CORSAIR 5000D Airflow
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 2000€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 2000€ :
+        CPU : AMD Ryzen 7 5800X 3D
+        Carte mère : ASUS ROG STRIX B550-F GAMING
+        Carte graphique : NVIDIA GeForce RTX 3080
+        RAM : 16 Go de DDR4 à 4000 MHz, Crucial BAllixtix
+        Stockage : 500 Go de SSD NVMe
+        Alimentation : 750W 80+ Gold, CORSAIR
+        Boîtier : LIAN LI LANCOOL MESH III
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 3000€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 1500€ :
+        CPU : INTEL I7 13700K
+        Carte mère : MSI Z790 TOMAHAWK DDR5
+        Carte graphique : NVIDIA GeForce RTX 3090 TI
+        RAM : 32 Go de DDR5 à 5600 MHz
+        Stockage : 2 To de SSD NVMe, 980 PRO SAMSUNG
+        Alimentation : 850W 80+ GOld, MSI
+        Boîtier : CORSAIR 7000D AIRFLOW
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* 5000€</pattern>
+      <template>
+        Nous vous recommandons la configuration suivante pour un budget de 1500€ :
+        CPU : INTEL I9 13900K
+        Carte mère : ASUS ROG Z790 DDR5
+        Carte graphique : NVIDIA GeForce RTX 4090
+        RAM : 128 Go de DDR4 à 6400 MHz
+        Stockage : 4 To de SSD NVMe, SN850X 
+        Alimentation : 1300W, MSI PCIE 3.0
+        Boîtier : LIan li O11 DYNAMIC EVO
+      </template>
+    </category>
+    
+
+</aiml>

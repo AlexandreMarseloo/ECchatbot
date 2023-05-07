@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>BONJOUR</pattern>
+    <template>Bonjour Monsieur, comment je peux vous aider ?</template>
+  </category>
+  
+  <category>
+    <pattern>SALUT</pattern>
+    <template>Salut, comment je peux t'aider ?</template>
+  </category>
+  
+   <category>
+    <pattern>YO</pattern>
+    <template>Yo gamer, comment je peux t'aider ?</template>
+  </category>
+</aiml>

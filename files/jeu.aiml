@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+      <pattern>* FORTNITE</pattern>
+      <template>
+        Voici une config pour jouer à Fornite en 1080P en 240 FPS !
+        
+        CPU : AMD Ryzen 5 5600X
+        Carte mère : MSI B550 GAMING PLUS
+        Carte graphique : AMD 6700 XT
+        RAM : 16 Go de DDR4 à 3600 CRUCIAL BALLISTIX RGB
+        Stockage : 1 To de SSD SATA MX500
+        Alimentation : CORSAIR RM650W 80+ Gold
+        Boîtier :  PHANTHEKS G360A ARGB ATX
+        
+        Je te conseil de mettre tous les parametres en low, la distance d'affichage en élevé et de mettre le mode performance.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* GTA</pattern>
+      <template>
+        Voici une config pour jouer à GTA en 2K 144 FPS !
+        
+        CPU : AMD Ryzen 7 5800X
+        Carte mère : MSI B550 GAMING PLUS
+        Carte graphique : AMD 7900 XTX
+        RAM : 16 Go de DDR4 à 4000 MHZ CORSAIR RGB
+        Stockage : 2 To de SSD, SN750
+        Alimentation : SEASONIC RMX850W 80+ Gold
+        Boîtier :  PHANTHEKS P360A RGB ATX
+        
+        Tu pourras jouer avec les graphismes en ULTRA sans perte de FPS.
+      </template>
+    </category>
+    
+    
+    <category>
+      <pattern>* WARZONE</pattern>
+      <template>
+        Voici une config pour jouer à Warzone en 2K 144 FPS !
+        
+        CPU : AMD Ryzen 7 3700X
+        Carte mère : MSI B550 A PRO
+        Carte graphique : RTX 3090 TI
+        RAM : 16 Go de DDR4 à 4400 MHZ CORSAIR RGB
+        Stockage : 4 To de SSD, SN850X
+        Alimentation : SEASONIC RMX750W 80+ Gold
+        Boîtier : LIAN LI MESH II RGB ATX
+        
+        Warzonne est un jeu grourmand en ressources, il demande donc une tres bonne carte graphique et beaucoup de stockage!
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* LOL</pattern>
+      <template>
+        VOila un PC pour jouer comme un Geek à LOL !
+        
+        CPU : AMD Ryzen 5600G
+        Carte mère : MSI B550 A PRO
+        RAM : 16 Go de DDR4 à 3200 MHZ CORSAIR LPX
+        Stockage : 1 To de SSD, MX500
+        Alimentation : CORSAIR CVX550W 80+ Bronze
+        Boîtier : MSI MAG FORGE 100R
+        
+        LOL est un jeu qui n'utilise pas beaucoup de ressources, pa besoin de te ruiner avec une RTX 4090 !
+      </template>
+    </category>
+</aiml>

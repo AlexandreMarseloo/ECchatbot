@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+      <pattern>* S ALLUME PAS</pattern>
+      <template>
+        Si ton PC ne s'allume pas, verifie que tu as bien mis le button d'alimentation sur ON. Verifie les branchements, du front pannel, du cable 24 Pins de la carte mere, du cable 8 pins du CPU et les cables de la carte graphique.
+        Regarde aussi si ces voyants s'allument : 
+        
+        DRAM : Probleme de RAM
+        CPU : Problemen de processeur
+        VGA : Probleme de Carte graphique
+        BOOT : le PC est en train de s'allumer
+
+      </template>
+    </category>
+      
+      <category>
+      <pattern>* BUG</pattern>
+      <template>
+        Si tu as des bugs sur ton PC, essaye de rerifier les temperatures du processeur et de la carte graphique. Tu peux installer HW Monitor pour voir les temperatures de tous les composants. Tu peux aussi installer Userdiag qui te dira les problemes que tu as dans le PC. TU peux aussi installer les drivers de la carte graohique et de la carte mere. Regarde aussi si tu n'as pas pris de virus avec Windows Defender.
+      </template>
+    </category>
+</aiml>

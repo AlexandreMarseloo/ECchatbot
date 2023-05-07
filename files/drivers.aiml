@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+      <pattern>* WINDOWS</pattern>
+      <template>
+        Pour installer Windows, tu as juste besoin d'une clé USB DE 8 Go et d'un second PC :
+        
+        Téléchargez l'outil de création de support de Windows depuis le site Web de Microsoft. Cet outil vous permettra de créer une clé USB bootable avec la version de Windows que vous souhaitez installer.
+
+    Branchez votre clé USB dans un port USB de votre ordinateur. Veuillez noter que toutes les données stockées sur la clé USB seront effacées lors de la création de la clé USB bootable.
+
+    Exécutez l'outil de création de support de Windows. Vous devrez sélectionner la langue, l'édition et l'architecture de Windows que vous souhaitez installer. Vous pourrez également choisir de créer une clé USB bootable ou un fichier ISO que vous pourrez graver sur un DVD.
+
+    Sélectionnez "Clé USB" comme option de support à utiliser.
+
+    Choisissez la clé USB que vous souhaitez utiliser pour créer la clé USB bootable et cliquez sur "Suivant".
+
+    L'outil de création de support de Windows va maintenant formater votre clé USB et copier les fichiers nécessaires pour créer la clé USB bootable. Cela peut prendre quelques minutes.
+
+    Une fois la création de la clé USB bootable terminée, vous pouvez maintenant l'utiliser pour installer Windows sur votre ordinateur. Pour cela, redémarrez votre ordinateur et appuyez sur la touche appropriée pour accéder au menu de démarrage. Cela peut varier en fonction du modèle de votre ordinateur, mais généralement, il s'agit de la touche F12 ou de la touche ESC. 
+      </template>
+    </category>
+    
+    
+    <category>
+      <pattern>* DRIVERS</pattern>
+      <template>
+        Tout d'abord, déterminez la marque et le modèle de votre carte graphique. Vous pouvez le faire en ouvrant le Gestionnaire de périphériques de Windows et en cherchant votre carte graphique sous "Cartes graphiques".
+
+    Accédez au site Web du fabricant de votre carte graphique et recherchez la section "Téléchargements" ou "Support". Vous devriez trouver une liste de pilotes disponibles pour votre carte graphique.
+
+    Sélectionnez le pilote le plus récent pour votre système d'exploitation et téléchargez-le sur votre ordinateur. Assurez-vous de télécharger le bon pilote pour votre carte graphique et votre version de Windows.
+
+    Une fois le pilote téléchargé, double-cliquez dessus pour lancer l'assistant d'installation.
+
+    Suivez les instructions à l'écran pour installer le pilote de votre carte graphique. Le processus d'installation peut varier en fonction du fabricant de votre carte graphique, mais généralement, vous devrez accepter les termes du contrat de licence, choisir l'emplacement d'installation et cliquer sur "Installer".
+
+    Une fois l'installation terminée, redémarrez votre ordinateur pour que les modifications prennent effet.
+
+    Pour vérifier que le pilote a été correctement installé, ouvrez à nouveau le Gestionnaire de périphériques de Windows et recherchez votre carte graphique sous "Cartes graphiques". Vérifiez que le nom de la carte graphique correspond à celui de la carte que vous avez installée et qu'il n'y a pas de symbole d'erreur.
+
+    Voilà! Vous avez maintenant installé les pilotes de votre carte graphique et votre ordinateur devrait être prêt à fonctionner avec des performances graphiques optimales.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>* BIOS</pattern>
+      <template>
+        La mise à jour du BIOS est un processus un peu plus délicat, mais voici les étapes générales pour mettre à jour le BIOS de votre ordinateur :
+
+    Tout d'abord, déterminez la version actuelle du BIOS de votre ordinateur. Vous pouvez le faire en accédant à l'interface du BIOS au démarrage de votre ordinateur. Cela peut varier en fonction du fabricant de votre ordinateur, mais généralement, vous devez appuyer sur une touche spécifique (par exemple, la touche Suppr, F2 ou F10) au démarrage pour accéder à l'interface du BIOS.
+
+    Recherchez la marque et le modèle de votre carte mère. Vous pouvez le faire en consultant le manuel de votre ordinateur ou en cherchant le nom de la carte mère sur Internet.
+
+    Accédez au site Web du fabricant de votre carte mère et recherchez la section "Téléchargements" ou "Support". Vous devriez trouver une liste de mises à jour du BIOS disponibles pour votre carte mère.
+
+    Sélectionnez la mise à jour la plus récente pour votre carte mère et téléchargez-la sur votre ordinateur. Assurez-vous de télécharger la bonne mise à jour pour votre carte mère et votre version de Windows.
+
+    Créez une clé USB bootable contenant la mise à jour du BIOS. Pour cela, vous pouvez utiliser un logiciel tiers comme Rufus ou l'outil de création de support de Windows.
+
+    Redémarrez votre ordinateur et appuyez sur la touche appropriée pour accéder au menu de démarrage. Sélectionnez la clé USB bootable contenant la mise à jour du BIOS et appuyez sur "Entrée".
+
+    Suivez les instructions à l'écran pour installer la mise à jour du BIOS. Assurez-vous de suivre toutes les instructions attentivement et de ne pas éteindre votre ordinateur pendant le processus de mise à jour. Cela peut prendre plusieurs minutes.
+
+    Une fois la mise à jour du BIOS terminée, redémarrez votre ordinateur. Vous devrez peut-être reconfigurer certaines options dans l'interface du BIOS, telles que l'ordre de démarrage ou la configuration du processeur.
+
+    Voilà! Vous avez maintenant mis à jour le BIOS de votre ordinateur. Veuillez noter que la mise à jour du BIOS peut être risquée si elle est mal effectuée, alors assurez-vous de suivre toutes les instructions attentivement et de ne pas interrompre le processus de mise à jour. Si vous avez des doutes ou des questions, consultez le manuel de votre carte mère ou contactez le support technique du fabricant de votre ordinateur.
+      </template>
+    </category>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</aiml>
