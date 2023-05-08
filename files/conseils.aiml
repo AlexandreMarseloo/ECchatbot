@@ -4,7 +4,7 @@
 	
 	
 	<category>
-      <pattern>* BUREAUTIQUE</pattern>
+      <pattern>BUREAUTIQUE</pattern>
       <template>
         Voici une config pour de la bureautique !
         CPU : AMD Ryzen 5 5600G
@@ -18,9 +18,18 @@
       </template>
     </category>
 	
+	<category>
+        <pattern>* BUREAUTIQUE</pattern>
+        <template><srai>BUREATIQUE</srai></template>
+    </category>
 	
 	<category>
-      <pattern>* GAMING *</pattern>
+        <pattern>* BUREAUTIQUE *</pattern>
+        <template><srai>BUREAUTIQUE</srai></template>
+    </category>
+	
+	<category>
+      <pattern>GAMING</pattern>
       <template>
         Voici un PC que je te conseil pour jouer en 1080P 240HZ:
         
@@ -39,7 +48,27 @@
     </category>
     
     <category>
-      <pattern>* STREAMING *</pattern>
+        <pattern>* GAMING</pattern>
+        <template><srai>GAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* GAMING*</pattern>
+        <template><srai>GAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* JOUER</pattern>
+        <template><srai>GAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* JOUER*</pattern>
+        <template><srai>GAMING</srai></template>
+    </category>
+    
+    <category>
+      <pattern>STREAMING</pattern>
       <template>
         Voici un PC que je te conseil pour streamer en 1080P 60HZ:
         
@@ -56,7 +85,22 @@
     </category>
     
     <category>
-      <pattern>* MULTITACHE</pattern>
+        <pattern>* STREAMING</pattern>
+        <template><srai>STREAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>STREAM</pattern>
+        <template><srai>STREAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* STREAM</pattern>
+        <template><srai>STREAMING</srai></template>
+    </category>
+    
+    <category>
+      <pattern>MULTITACHE</pattern>
       <template>
         Voici un PC que je te conseil pour faire du montage video ou autres.
         
@@ -68,15 +112,27 @@
         Alimentation : 750W 80+ Bronze, TERMALRIGHT
         Boîtier : CORSAIR 4000D Airflow
         
-        Tu pourras meme ouvrir plusieurs fenetres en meme temps, sans buger.
-        
-        
+        Tu pourras meme ouvrir plusieurs fenetres en meme temps, sans ralentissements.
       </template>
     </category>
-    
     
     <category>
-      <pattern>* GAMING * STREAMING *</pattern>
+        <pattern>* MULTITACHE</pattern>
+        <template><srai>MULTITACHE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>DEVELOPPEMENT</pattern>
+        <template><srai>MULTITACHE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* DEVELOPPEMENT</pattern>
+        <template><srai>MULTITACHE</srai></template>
+    </category>
+    
+    <category>
+      <pattern>* GAMING * STREAMING</pattern>
       <template>
         Voici un PC que je te conseil pour faire du steaming et du gaming simultanément :
         
@@ -88,24 +144,27 @@
         Alimentation : 1000W 80+ Bronze, MSI PCIE 5.0 ATX 3.0
         Boîtier : CORSAIR 7000D Airflow
         
-        Avec cette config, tu es sur de perdre 0 FPS !
+        Ces deux acitivités combinées demandent beaucoup de ressources, avec cette config, tu es sur de perdre 0 FPS !
       </template>
     </category>
     
-        <category>
-      <pattern>* GAMING * STREAMING *</pattern>
-      <template>
-        Voici un PC que je te conseil pour faire du steaming et du gaming simultanément :
-        
-        CPU : i7 13700K
-        Carte mère : ASUS ROG Z790 DDR5
-        Carte graphique : NVIDIA GeForce RTX 4070 TI
-        RAM : 32 Go de DDR4 à 6000 MHz
-        Stockage : 2 To de SSD NVMe, 980 PRO
-        Alimentation : 1000W 80+ Bronze, MSI PCIE 5.0 ATX 3.0
-        Boîtier : CORSAIR 7000D Airflow
-        
-        Avec cette config, tu es sur de perdre 0 FPS !
-      </template>
+    <category>
+        <pattern>* STREAMING * GAMING</pattern>
+        <template><srai>* GAMING * STREAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* STREAM * JOUER</pattern>
+        <template><srai>* GAMING * STREAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* JOUER * STREAM</pattern>
+        <template><srai>* GAMING * STREAMING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* STREAM * JEUX</pattern>
+        <template><srai>* GAMING * STREAMING</srai></template>
     </category>
 </aiml>

@@ -2,16 +2,31 @@
 <aiml>
   <category>
     <pattern>BONJOUR</pattern>
-    <template>Bonjour Monsieur, comment je peux vous aider ?</template>
+    <template>
+        <random>
+            <li>Bonjour, comment puis-je vous aider ?</li>
+            <li>Bonjour, je suis à répondre à vos requêtes.</li>
+        </random>
+    </template>
   </category>
   
   <category>
     <pattern>SALUT</pattern>
-    <template>Salut, comment je peux t'aider ?</template>
+    <template><srai>BONJOUR</srai></template>
   </category>
   
    <category>
     <pattern>YO</pattern>
-    <template>Yo gamer, comment je peux t'aider ?</template>
+    <template>Yo gamer, comment puis-je t'aider ?</template>
+  </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template>Veuillez m'excuser, je n'ai pas compris votre requête. Essayer de simplifier et de ne poser qu'une question a la fois. La commande "help" vous donnera plus d'informations sur mes capacités.</template>
+  </category>
+  
+  <category>
+      <pattern>HELP</pattern>
+      <template>Mon rôle est de vous accompagner dans la création et la maintenance de votre ordinateur. Je peux vous renseigner sur les différents composants ou vous conseiller des configurations en fonction de l'utilisation que vous souhaitez en faire, des jeux que vous souhaitez faire fonctionner ou du budget dont vous disposez.</template>
   </category>
 </aiml>

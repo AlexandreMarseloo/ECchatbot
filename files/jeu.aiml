@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 	
 	<category>
-      <pattern>* FORTNITE</pattern>
+      <pattern>FORTNITE</pattern>
       <template>
         Voici une config pour jouer à Fornite en 1080P en 240 FPS !
         
@@ -18,9 +18,19 @@
         Je te conseil de mettre tous les parametres en low, la distance d'affichage en élevé et de mettre le mode performance.
       </template>
     </category>
+
+    <category>
+        <pattern>* FORTNITE</pattern>
+        <template><srai>FORTNITE</srai></template>
+    </category>
     
     <category>
-      <pattern>* GTA</pattern>
+        <pattern>* FORTNITE *</pattern>
+        <template><srai>FORNITE</srai></template>
+    </category>
+
+    <category>
+      <pattern>GTA</pattern>
       <template>
         Voici une config pour jouer à GTA en 2K 144 FPS !
         
@@ -36,28 +46,47 @@
       </template>
     </category>
     
+    <category>
+        <pattern>* GTA</pattern>
+        <template><srai>GTA</srai></template>
+    </category>
     
     <category>
-      <pattern>* WARZONE</pattern>
+        <pattern>* GTA *</pattern>
+        <template><srai>GTA</srai></template>
+    </category>
+    
+    <category>
+      <pattern>WARZONE</pattern>
       <template>
         Voici une config pour jouer à Warzone en 2K 144 FPS !
         
-        CPU : AMD Ryzen 7 3700X
-        Carte mère : MSI B550 A PRO
-        Carte graphique : RTX 3090 TI
-        RAM : 16 Go de DDR4 à 4400 MHZ CORSAIR RGB
-        Stockage : 4 To de SSD, SN850X
-        Alimentation : SEASONIC RMX750W 80+ Gold
-        Boîtier : LIAN LI MESH II RGB ATX
+        CPU : AMD Ryzen 7 3700X. 
+        Carte mère : MSI B550 A PRO. 
+        Carte graphique : RTX 3090 TI. 
+        RAM : 16 Go de DDR4 à 4400 MHZ CORSAIR RGB. 
+        Stockage : 4 To de SSD, SN850X. 
+        Alimentation : SEASONIC RMX750W 80+ Gold. 
+        Boîtier : LIAN LI MESH II RGB ATX.
         
-        Warzonne est un jeu grourmand en ressources, il demande donc une tres bonne carte graphique et beaucoup de stockage!
+        Warzone est un jeu grourmand en ressources, il demande donc une carte graphique puissante et beaucoup de stockage!
       </template>
     </category>
     
     <category>
-      <pattern>* LOL</pattern>
+        <pattern>* WARZONE</pattern>
+        <template><srai>WARZONE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* WARZONE *</pattern>
+        <template><srai>WARZONE</srai></template>
+    </category>
+    
+    <category>
+      <pattern>LOL</pattern>
       <template>
-        VOila un PC pour jouer comme un Geek à LOL !
+        Voila un PC pour jouer à League of Legends !
         
         CPU : AMD Ryzen 5600G
         Carte mère : MSI B550 A PRO
@@ -66,7 +95,17 @@
         Alimentation : CORSAIR CVX550W 80+ Bronze
         Boîtier : MSI MAG FORGE 100R
         
-        LOL est un jeu qui n'utilise pas beaucoup de ressources, pa besoin de te ruiner avec une RTX 4090 !
+        LOL est un jeu qui n'utilise pas beaucoup de ressources, une carte graphique modeste suffit à jouer dans des conditions optimales !
       </template>
+    </category>
+    
+    <category>
+        <pattern>* LOL</pattern>
+        <template><srai>LOL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* LOL *</pattern>
+        <template><srai>LOL</srai></template>
     </category>
 </aiml>

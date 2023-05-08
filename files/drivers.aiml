@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 	
 	<category>
-      <pattern>* WINDOWS</pattern>
+      <pattern>* INSTALLER WINDOWS</pattern>
       <template>
         Pour installer Windows, tu as juste besoin d'une clé USB DE 8 Go et d'un second PC :
         
@@ -69,38 +69,4 @@
     Voilà! Vous avez maintenant mis à jour le BIOS de votre ordinateur. Veuillez noter que la mise à jour du BIOS peut être risquée si elle est mal effectuée, alors assurez-vous de suivre toutes les instructions attentivement et de ne pas interrompre le processus de mise à jour. Si vous avez des doutes ou des questions, consultez le manuel de votre carte mère ou contactez le support technique du fabricant de votre ordinateur.
       </template>
     </category>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 </aiml>

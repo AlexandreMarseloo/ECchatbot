@@ -114,7 +114,7 @@
     <category>
       <pattern>* 5000€</pattern>
       <template>
-        Nous vous recommandons la configuration suivante pour un budget de 1500€ :
+        Nous vous recommandons la configuration suivante pour un budget de 5000€ :
         CPU : INTEL I9 13900K
         Carte mère : ASUS ROG Z790 DDR5
         Carte graphique : NVIDIA GeForce RTX 4090
