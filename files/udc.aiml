@@ -5,7 +5,7 @@
     <template>
         <random>
             <li>Bonjour, comment puis-je vous aider ?</li>
-            <li>Bonjour, je suis à répondre à vos requêtes.</li>
+            <li>Bonjour, je suis prêt à répondre à vos requêtes.</li>
         </random>
     </template>
   </category>
