@@ -13,6 +13,23 @@
         <pattern>* CARTE MERE</pattern>
         <template><srai>CARTE MERE</srai></template>
     </category>
+    
+    <category>
+    <pattern>CARTE MERE *</pattern>
+    <template><srai>CARTE MERE</srai></template>
+    </category>
+
+    <category>
+        <pattern>* CARTE MERE</pattern>
+        <template><srai>CARTE MERE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* CARTE MERE *</pattern>
+        <template><srai>CARTE MERE</srai></template>
+    </category>
+    
+    
 
     <category>
       <pattern>PROCESSEUR</pattern>
@@ -22,19 +39,36 @@
     </category>
     
     <category>
-        <pattern>* PROCESSEUR</pattern>
-        <template><srai>PROCESSEUR</srai></template>
+    <pattern>PROCESSEUR *</pattern>
+    <template><srai>PROCESSEUR</srai></template>
+    </category>
+
+    <category>
+    <pattern>* PROCESSEUR</pattern>
+    <template><srai>PROCESSEUR</srai></template>
+    </category>
+
+    <category>
+    <pattern>* PROCESSEUR *</pattern>
+    <template><srai>PROCESSEUR</srai></template>
     </category>
     
     <category>
-        <pattern>CPU</pattern>
-        <template><srai>PROCESSEUR</srai></template>
+    <pattern>CPU *</pattern>
+    <template>PROCESSEUR</template>
     </category>
-    
     <category>
         <pattern>* CPU</pattern>
-        <template><srai>PROCESSEUR</srai></template>
+        <template>PROCESSEUR</template>
     </category>
+    <category>
+        <pattern>* CPU *</pattern>
+        <template>PROCESSEUR</template>
+    </category>
+
+
+    
+    
     
     <category>
       <pattern>PATE THERMIQUE</pattern>
@@ -44,14 +78,19 @@
     </category>
     
     <category>
+        <pattern>PATE THERMIQUE *</pattern>
+        <template><srai>PATE THERMIQUE</srai></template>
+    </category>
+    <category>
         <pattern>* PATE THERMIQUE</pattern>
         <template><srai>PATE THERMIQUE</srai></template>
     </category>
-    
     <category>
         <pattern>* PATE THERMIQUE *</pattern>
         <template><srai>PATE THERMIQUE</srai></template>
     </category>
+
+    
     
     <category>
       <pattern>RAM</pattern>
@@ -61,19 +100,33 @@
     </category>
     
     <category>
-        <pattern>* RAM</pattern>
-        <template><srai>RAM</srai></template>
+    <pattern>RAM *</pattern>
+    <template><srai>RAM</srai></template>
+    </category>
+    <category>
+    <pattern>* RAM</pattern>
+    <template><srai>RAM</srai></template>
+    </category>
+    <category>
+    <pattern>* RAM *</pattern>
+    <template><srai>RAM</srai></template>
     </category>
     
     <category>
-        <pattern>MEMOIRE VIVE</pattern>
+        <pattern>MEMOIRE *</pattern>
         <template><srai>RAM</srai></template>
     </category>
-    
     <category>
-        <pattern>* MEMOIRE VIVE</pattern>
+        <pattern>* MEMOIRE</pattern>
         <template><srai>RAM</srai></template>
     </category>
+    <category>
+        <pattern>* MEMOIRE *</pattern>
+        <template><srai>RAM</srai></template>
+    </category>
+
+
+    
     
     <category>
       <pattern>STOCKAGE</pattern>
@@ -83,30 +136,64 @@
     </category>
     
     <category>
+    <pattern>STOCKAGE *</pattern>
+    <template><srai>STOCKAGE</srai></template>
+    </category>
+    <category>
         <pattern>* STOCKAGE</pattern>
         <template><srai>STOCKAGE</srai></template>
     </category>
-    
     <category>
-        <pattern>DISQUE DUR</pattern>
+        <pattern>* STOCKAGE *</pattern>
         <template><srai>STOCKAGE</srai></template>
     </category>
     
+    
+    
+    <category>
+    <pattern>DISQUE DUR *</pattern>
+    <template><srai>STOCKAGE</srai></template>
+    </category>
     <category>
         <pattern>* DISQUE DUR</pattern>
         <template><srai>STOCKAGE</srai></template>
     </category>
-    
     <category>
-        <pattern>SSD</pattern>
+        <pattern>* DISQUE DUR *</pattern>
         <template><srai>STOCKAGE</srai></template>
     </category>
     
+    <category>
+    <pattern>HDD *</pattern>
+    <template><srai>STOCKAGE</srai></template>
+    </category>
+    <category>
+        <pattern>* HDD</pattern>
+        <template><srai>STOCKAGE</srai></template>
+    </category>
+    <category>
+        <pattern>* HDD *</pattern>
+        <template><srai>STOCKAGE</srai></template>
+    </category>
+    
+    
+    
+    <category>
+    <pattern>SSD *</pattern>
+    <template><srai>STOCKAGE</srai></template>
+    </category>
     <category>
         <pattern>* SSD</pattern>
         <template><srai>STOCKAGE</srai></template>
     </category>
+    <category>
+        <pattern>* SSD *</pattern>
+        <template><srai>STOCKAGE</srai></template>
+    </category>
     
+    
+    
+
     <category>
       <pattern>REFROIDISSEUR</pattern>
       <template>
@@ -115,19 +202,69 @@
     </category>
     
     <category>
+        <pattern>REFROIDISSEUR *</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+    
+    <category>
         <pattern>* REFROIDISSEUR</pattern>
         <template><srai>REFROIDISSEUR</srai></template>
     </category>
     
     <category>
-        <pattern>VENTILATEUR</pattern>
+        <pattern>*REFROIDISSEUR *</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+    
+    
+    <category>
+      <pattern>VENTIRAD</pattern>
+      <template>
+        Un ventirad (ou dissipateur de chaleur) est un composant qui aide à refroidir les composants sensibles à la chaleur dans un ordinateur, comme le processeur. Il se compose généralement d'un radiateur en métal et d'un ventilateur qui aspire l'air chaud à l'intérieur de l'ordinateur et le renvoie à l'extérieur. Le ventirad aide à dissiper la chaleur générée par le processeur pour éviter les problèmes de surchauffe. Le watercooling est une technique de refroidissement qui utilise de l'eau pour dissiper la chaleur des composants de l'ordinateur. Il se compose généralement d'un système de radiateur, de tuyaux et de pompes qui transportent l'eau à travers le système pour dissiper la chaleur des composants critiques, comme le processeur. Le watercooling est souvent utilisé par les joueurs et les utilisateurs de PC de pointe qui cherchent à refroidir leurs composants de manière plus efficace et silencieuse que les ventirads conventionnels.
+      </template>
+    </category>
+    
+    <category>
+        <pattern>VENTIRAD *</pattern>
         <template><srai>REFROIDISSEUR</srai></template>
     </category>
     
     <category>
-        <pattern>* VENTILATEUR</pattern>
+        <pattern>* VENTIRAD</pattern>
         <template><srai>REFROIDISSEUR</srai></template>
     </category>
+
+    <category>
+        <pattern>* VENTIRAD *</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+    
+    <category>
+      <pattern>WATERCOOLING</pattern>
+      <template>
+        Un ventirad (ou dissipateur de chaleur) est un composant qui aide à refroidir les composants sensibles à la chaleur dans un ordinateur, comme le processeur. Il se compose généralement d'un radiateur en métal et d'un ventilateur qui aspire l'air chaud à l'intérieur de l'ordinateur et le renvoie à l'extérieur. Le ventirad aide à dissiper la chaleur générée par le processeur pour éviter les problèmes de surchauffe. Le watercooling est une technique de refroidissement qui utilise de l'eau pour dissiper la chaleur des composants de l'ordinateur. Il se compose généralement d'un système de radiateur, de tuyaux et de pompes qui transportent l'eau à travers le système pour dissiper la chaleur des composants critiques, comme le processeur. Le watercooling est souvent utilisé par les joueurs et les utilisateurs de PC de pointe qui cherchent à refroidir leurs composants de manière plus efficace et silencieuse que les ventirads conventionnels.
+      </template>
+    </category>
+    
+    <category>
+        <pattern>WATERCOOLING *</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* WATERCOOLING</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+
+    <category>
+        <pattern>* WATERCOOLING *</pattern>
+        <template><srai>REFROIDISSEUR</srai></template>
+    </category>
+    
+
+
+    
+
     
     <category>
       <pattern>BOITIER</pattern>
@@ -136,10 +273,20 @@
       </template>
     </category>
     
+        <category>
+        <pattern>BOITIER *</pattern>
+        <template><srai>BOITIER</srai></template>
+    </category>
     <category>
         <pattern>* BOITIER</pattern>
         <template><srai>BOITIER</srai></template>
     </category>
+    <category>
+        <pattern>* BOITIER *</pattern>
+        <template><srai>BOITIER</srai></template>
+    </category>
+
+    
     
     <category>
       <pattern>ALIMENTATION</pattern>
@@ -148,31 +295,137 @@
       </template>
     </category>
     
+        <category>
+        <pattern>ALIMENTATION *</pattern>
+        <template><srai>ALIMENTATION</srai></template>
+    </category>
     <category>
         <pattern>* ALIMENTATION</pattern>
         <template><srai>ALIMENTATION</srai></template>
     </category>
+    <category>
+        <pattern>* ALIMENTATION *</pattern>
+        <template><srai>ALIMENTATION</srai></template>
+    </category>
+    
+
     
     <category>
-      <pattern>GPU</pattern>
+      <pattern>CARTE GRAPHIQUE</pattern>
       <template>
         Une carte graphique, également appelée carte vidéo ou GPU (Unité de traitement graphique), est un composant de l'ordinateur dédié à l'affichage et au traitement des images et des graphiques. Elle traite les informations graphiques et les envoie à un moniteur pour l'affichage sur l'écran. Les cartes graphiques peuvent offrir une performance graphique significativement supérieure à celle de l'intégration graphique dans la plupart des processeurs. Les cartes graphiques modernes sont souvent utilisées pour les jeux vidéo, la modélisation 3D, l'édition vidéo et audio, et d'autres tâches intensives en graphismes. Les cartes graphiques sont disponibles en différentes tailles et types de connecteurs en fonction des besoins de l'utilisateur et de la configuration de l'ordinateur.
       </template>
     </category>
     
     <category>
-        <pattern>* GPU</pattern>
-        <template><srai>GPU</srai></template>
+    <pattern>CARTE GRAPHIQUE *</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    <category>
+    <pattern>* CARTE GRAPHIQUE</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    <category>
+    <pattern>* CARTE GRAPHIQUE *</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    
+    
+    <category>
+    <pattern>GPU *</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    <category>
+    <pattern>* GPU</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    <category>
+    <pattern>* GPU *</pattern>
+    <template><srai>CARTE GRAPHIQUE</srai></template>
+    </category>
+    
+    
+    <category>
+    <pattern>UNITE CENTRALE</pattern>
+    <template>
+        Un PC (Personal Computer) est un ordinateur de bureau ou portable destiné à une utilisation personnelle. Il se compose généralement d'une unité centrale contenant le processeur, la mémoire vive, le disque dur et d'autres composants électroniques, ainsi que d'un écran, d'un clavier et d'une souris pour interagir avec le système. Le PC peut être utilisé pour une grande variété de tâches, telles que la navigation sur Internet, le traitement de texte, la création de contenu multimédia, le jeu vidéo et bien plus encore.
+    </template>
     </category>
     
     <category>
-        <pattern>CARTE GRAPHIQUE</pattern>
-        <template><srai>GPU</srai></template>
+        <pattern>UNITE CENTRALE *</pattern>
+        <template><srai>UNITE CENTRALE</srai></template>
     </category>
     
     <category>
-        <pattern>* CARTE GRAPHIQUE</pattern>
-        <template><srai>GPU</srai></template>
+        <pattern>* UNITE CENTRALE</pattern>
+        <template><srai>UNITE CENTRALE</srai></template>
     </category>
+    
+    <category>
+        <pattern>* UNITE CENTRALE *</pattern>
+        <template><srai>PC</srai></template>
+    </category>
+    
+    <category>
+    <pattern>MONTER</pattern>
+    <template>
+        <b>Comment et pourquoi monter son PC ?</b> <br></br>
+        <br></br> Pour monter ton PC tu auras seulemenet besoin d'un tournevis et de cette video ! <br></br><br></br> https://www.youtube.com/watch?v=e9uZYI_V0Bw<br></br>
+         <br></br> Monter son propre PC peut être moins cher, permettre une personnalisation selon ses besoins, offrir un meilleur contrôle de la qualité et être une expérience d'apprentissage enrichissante.
+    </template>
+    </category>
+    
+    <category>
+        <pattern>* MONTAGE *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>MONTAGE *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* MONTAGE</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* MONTER *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>MONTER *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* MONTER</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* MONTEUR *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>MONTEUR *</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* MONTEUR</pattern>
+        <template><srai>MONTER</srai></template>
+    </category>
+    
+  
+    
+ 
+
+    
+
 </aiml>
 
