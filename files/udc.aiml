@@ -136,6 +136,16 @@
     <pattern># AIDE #</pattern>
     <template><srai>HELP</srai></template>
   </category>
+  
+  <category>
+    <pattern># PROBLEME #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
+  
+  <category>
+    <pattern># AIDER #</pattern>
+    <template><srai>HELP</srai></template>
+  </category>
 
 <category>
   <pattern># QUI #</pattern>
